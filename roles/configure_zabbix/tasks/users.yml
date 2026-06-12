@@ -8,3 +8,17 @@
     usrgrps:
       - "Zabbix administrators"
     state: present
+
+#- name: Create custom zabbix user
+#  community.zabbix.zabbix_user:
+#    username: "skerika"
+#    name: "adam"
+#    surname: "skerik"
+#    passwd: "bababaheslo123"
+#    usrgrps:
+#      - "Zabbix administrators"
+#    user_medias:
+#      - mediatype: Email
+#        sendto:
+#          - skerik.adam@student.sposdk.cz
+#    state: present
